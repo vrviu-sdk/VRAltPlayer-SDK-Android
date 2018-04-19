@@ -1,2 +1,2 @@
-# vrviu-android-vr-altplayer-deo
+# vrviu-android-vr-altplayer-demo
 android-vrplayer demo
