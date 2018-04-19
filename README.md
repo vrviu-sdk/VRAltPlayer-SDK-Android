@@ -33,7 +33,7 @@ Android studio
 ### 2. 导入工程
 ##### 2.1 导入aar包
 将aar包放到工程libs目录下，如图
-![](https://github.com/vrviu-sdk/VRVIU-AltPlayer-Demo-Android)
+![](https://github.com/vrviu-sdk/VRVIU-VR-AltPlayer-Demo-Android/blob/master/Image/libpath.png)
 
 修改build.gradle文件，确保添加
 
