@@ -24,11 +24,11 @@ V1.1.0
 * **渲染类型**： 支持360度2D ERP视频点播直播，支持180度2D FISH-EYE视频点播直播。
 
 ## 开发环境
-Android studio
+Android Studio
 
 ## 导入工程
 ### 1. 开发准备
-下载最新的demo和sdk
+下载最新的Demo和SDK
 
 ### 2. 导入工程
 ##### 2.1 导入aar包
