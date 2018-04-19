@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/splash_rl"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/choseLocalSDCardBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="选择sdcard文件"/>
+    <TextView
+        android:id="@+id/choseLocalBtn"
+        android:layout_below="@id/choseLocalSDCardBtn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_height="40dip"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="选择手机内部存储文件"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id = "@+id/input_ly"
+        android:orientation="horizontal"
+        android:layout_below="@id/choseLocalBtn">
+        <TextView
+            android:id="@+id/input_tv_tx"
+            android:text="Input:"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/input_tv"
+            android:text="click input"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/input_tv_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:visibility="visible"
+            />
+    </RelativeLayout>
+
+    <ExpandableListView android:id="@+id/sample_list"
+        android:layout_below="@id/input_ly"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/empty_tv"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>

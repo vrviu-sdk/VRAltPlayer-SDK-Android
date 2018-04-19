@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AltVrPlayer</string>
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+</resources>
