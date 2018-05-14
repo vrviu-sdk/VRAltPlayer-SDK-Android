@@ -1,4 +1,4 @@
-# VRVIU-VR-AltPlayerSDK (Android)
+# VR-AltPlayer-SDK-Android
 
 [![](https://img.shields.io/badge/Powered%20by-vrviu.com-brightgreen.svg)](https://vrviu.com)
 
