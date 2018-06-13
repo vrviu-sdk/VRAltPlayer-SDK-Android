@@ -1,4 +1,4 @@
-# VRVIU-VR-AltPlayerSDK (Android)
+# VR-AltPlayer-SDK-Android
 
 [![](https://img.shields.io/badge/Powered%20by-vrviu.com-brightgreen.svg)](https://vrviu.com)
 
@@ -9,11 +9,11 @@ V1.2.0
 支持点播以及直播功能，其中直播是网络主播实时推送的视频流，用户能够及时看到主播的画面。点播是播放云端或者本地的文件。
 
 ## 产品特点
-* **播放器格式支持**：可以支持常见视频格式播放，也可以播放威尔云转码的视频，其中威尔云视频转码对视频编码算法在同样清晰度的前提下有更高的压缩率。
+* **播放器格式支持**：可以支持常见视频格式播放，也可以播放使用威尔云 [**FE算法**](https://www.vrviu.com/technology.html) 编码后的视频。经测试，FE编码在同样清晰度的前提下能够进一步节省最高40%的码率。
 
 * **直播视频秒开**：通过优化播放器缓冲策略、网络加载等，该SDK可以实现秒开。
 
-* **多协议支持**：支持HLS/FLV/MP4/本地文件播放等。
+* **多协议支持**：支持HLS/RTMP/HTTP-FLV/HTTP-MP4等常见标准协议，以及本地文件的播放。
 
 * **接口简单全面**：实现播放接口简单，可快速实现播放。提供播放器状态监听接口以及错误信息通知接口、日志接口、算法参数配置接口等。
 
@@ -24,16 +24,16 @@ V1.2.0
 * **渲染类型**： 支持360度2D ERP视频点播直播，支持180度2D FISH-EYE视频点播直播。
 
 ## 开发环境
-Android studio
+Android Studio
 
 ## 导入工程
 ### 1. 开发准备
-下载最新的demo和sdk
+下载最新的Demo和SDK
 
 ### 2. 导入工程
 ##### 2.1 导入aar包
 将aar包放到工程libs目录下，如图
-![](https://github.com/vrviu-sdk/VRVIU-AltPlayer-Demo-Android)
+![](https://github.com/vrviu-sdk/VRVIU-VR-AltPlayer-Demo-Android/blob/master/Image/libpath.png)
 
 修改build.gradle文件，确保添加
 
@@ -173,3 +173,8 @@ videoView.release();
 |AccessKeyId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
 |BizId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
 |AccessKey|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
+
+## 商务合作
+电话：0755-86960615
+
+邮箱：business@vrviu.com
