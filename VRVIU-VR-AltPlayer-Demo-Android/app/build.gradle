@@ -45,5 +45,5 @@ dependencies {
     compile 'com.google.vr:sdk-common:1.80.0'
     compile 'com.google.vr:sdk-base:1.80.0'
     compile 'com.google.vr:sdk-commonwidget:1.80.0'
-        compile(name:'vrviu-vr-altplayer1.1.0',ext:'aar')
+        compile(name:'vrviu-vr-altplayer1.2.0',ext:'aar')
 }
